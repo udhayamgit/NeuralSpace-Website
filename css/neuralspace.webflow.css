@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #708099;
   font-size: 16px;
   line-height: 27px;
@@ -346,7 +346,6 @@ figcaption {
 
 .hero-section._3 {
   padding-top: 15%;
-  padding-bottom: 15%;
   background-image: url('../images/blackx_thumbnail.jpg');
   background-position: 0px 0px;
   background-size: cover;
@@ -454,6 +453,13 @@ figcaption {
   letter-spacing: 1.8px;
   text-decoration: none;
   text-transform: uppercase;
+}
+.mini-title-3 {
+  margin-bottom: 5px;
+  color: #708099;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
 }
 
 .mini-title-2.paragraph-white {
@@ -1881,7 +1887,7 @@ figcaption {
 }
 
 .footer-section {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   margin-bottom: 0%;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -3691,15 +3697,13 @@ figcaption {
   padding-bottom: 30px;
   border-style: none;
   border-top-width: 0px;
+  margin-top: 3em;
   border-top-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(180deg, #000, #000);
   font-family: Montserrat, sans-serif;
   text-decoration: none;
 }
 
 .intro-feature {
-  width: 25%;
   padding-right: 20px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -7275,6 +7279,18 @@ figcaption {
   background-image: url('../images/example-bg.png');
   background-position: 0px 0px;
   background-size: 125px;
+}
+
+.img-list{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.img-list img{
+  width: 160px;
+  margin: 20px 10px;
+  text-align: center;
 }
 
 html.w-mod-js *[data-ix="display-none-on-load"] {
