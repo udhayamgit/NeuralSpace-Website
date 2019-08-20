@@ -1983,6 +1983,7 @@ figcaption {
 }
 
 .footer-column-1 {
+  margin-left: 10%;
   width: 20%;
   padding-top: 3px;
 }
@@ -7315,6 +7316,10 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
 }
 
 @media (max-width: 991px) {
+
+  .hero-section._3{
+    padding: 10%;
+  }
   .nav-link.search {
     background-position: 20px 50%;
   }
@@ -7511,6 +7516,20 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
 }
 
 @media (max-width: 767px) {
+
+  .img-list{
+    margin-left: 10%;
+  }
+
+  .heading-9{
+    font-size: 16px;
+  }
+
+  .hand-image{
+    max-width: 90%;
+    margin: auto;
+  }
+
   .content-section.purple-5 {
     min-height: 545px;
   }
@@ -7661,6 +7680,7 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
     padding-left: 0px;
   }
   .footer-column-1 {
+    margin-left: 10%;
     width: 100%;
     margin-bottom: 30px;
   }
@@ -7833,6 +7853,9 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
     margin-top: 0px;
   }
   .text-block-9 {
+    margin-left: 0%;
+    max-width: 90%;
+    padding-left: 0%;
     margin-right: 0px;
     padding-right: 0px;
   }
@@ -8204,6 +8227,7 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
     padding-left: 0px;
   }
   .footer-column-1 {
+    margin-left: 10%;
     width: 100%;
     margin-bottom: 35px;
   }
