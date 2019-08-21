@@ -112,7 +112,7 @@ figcaption {
 }
 
 .content-section {
-  padding-top: 6%;
+  padding-top: 2%;
   padding-bottom: 2%;
   font-family: Montserrat, sans-serif;
   color: #c4cbd5;
@@ -3381,7 +3381,7 @@ figcaption {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  border: 1px solid #c4cbd5;
+  /* border: 1px solid #c4cbd5; */
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #fff;
@@ -7327,6 +7327,7 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
     background-position: 20px 50%;
   }
   .hero-section._2 {
+    padding-left: 48px;
     padding-bottom: 120px;
   }
   .hero-section._1 {
