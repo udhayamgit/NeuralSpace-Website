@@ -374,9 +374,10 @@ figcaption {
 .hero-section._1 {
   padding-top: 120px;
   padding-bottom: 475px;
-  background-image: url('../images/White_1White.jpg'), linear-gradient(225deg, #be3fff, #3410b1);
+  /* background-image: url('../images/White_1White.jpg'), linear-gradient(225deg, #be3fff, #3410b1); */
+  background-image: url(../images/blackx_thumbnail.jpg), url(../images/White_1White.jpg);
   background-position: 50% 100%, 0px 0px;
-  background-size: 1px 153px, auto;
+  /* background-size: 1px 153px, auto; */
   background-repeat: repeat-x, repeat;
   font-family: Montserrat, sans-serif;
 }
