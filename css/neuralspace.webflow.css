@@ -4473,6 +4473,7 @@ figcaption {
 }
 
 .box-2 {
+  margin-top:14px;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4492,7 +4493,7 @@ figcaption {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  border: 1px solid #c4cbd5;
+  border: 1px solid #eee;
   border-radius: 5px;
 }
 
@@ -7314,6 +7315,24 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
   -webkit-transform: translate(-100%, 0px);
   -ms-transform: translate(-100%, 0px);
   transform: translate(-100%, 0px);
+}
+
+.image-card{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+.intro-box{
+  padding-top: 1%;
+}
+
+.intro-box img{
+  max-height: 300px;
+  display: block;
+  max-width:300px;
+  width: auto;
+  height: auto;
 }
 
 @media (max-width: 991px) {
