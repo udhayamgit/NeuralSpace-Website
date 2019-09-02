@@ -346,7 +346,7 @@ figcaption {
 
 .hero-section._3 {
   padding-top: 15%;
-  background-image: url('../images/blackx_thumbnail.jpg');
+  background-image: linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0.1)), url('../images/ns-background.png');
   background-position: 0px 0px;
   background-size: cover;
 }
