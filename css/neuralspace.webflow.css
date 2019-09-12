@@ -5,6 +5,7 @@ body {
   line-height: 27px;
 }
 
+
 h1 {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -899,6 +900,9 @@ figcaption {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   border-bottom: 1px solid #c4cbd5;
+}
+.no-border-bottom{
+  border-bottom: 0px;
 }
 
 .item-3._6 {
