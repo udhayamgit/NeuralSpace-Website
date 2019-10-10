@@ -775,7 +775,7 @@ figcaption {
 ._53-percent-column {
   width: 53%;
   max-width: 583px;
-  min-height: 635px;
+  min-height: 400px;
   background-image: url('../images/AccomplishedShinyKoodoo-size_restricted.gif');
   background-position: 50% 50%;
   background-size: cover;
