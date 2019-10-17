@@ -96,6 +96,10 @@ blockquote {
   text-align: center;
 }
 
+.black-paragraph{
+  color:#aaa;
+}
+
 figure {
   margin-bottom: 10px;
 }
