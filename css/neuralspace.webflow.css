@@ -361,7 +361,7 @@ figcaption {
 
 .hero-section._3 {
   padding-top: 15%;
-  background-image: linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0.1)), url('../images/ns-background.png');
+  background-image: linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0.1)), url('../images/ns-background-min.png');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -7323,6 +7323,14 @@ figcaption {
 
 .heading-13 {
   font-size: 3em;
+}
+
+
+.ph-top-border{
+  border-top: 1px solid #c4cbd5;
+  padding-top: 16px;
+  max-width: 1140px;
+  margin: auto;
 }
 
 .image-26 {
