@@ -5176,6 +5176,10 @@ figcaption {
   align-items: stretch;
 }
 
+.carousel-container{
+  max-width: 100%;
+}
+
 .preview-image-6 {
   position: relative;
   display: -webkit-box;
