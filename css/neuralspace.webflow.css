@@ -7405,8 +7405,28 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
   width: auto; */
 }
 
-@media (max-width: 991px) {
+@media ( max-width: 1248px){
+  .left-pad-32{
+    padding-left: 32px;
+  }
 
+  .content-section{
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .paragraph-white {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .heading-13{
+    margin-left: 1em;
+  }
+
+}
+
+@media (max-width: 991px) {
   .hero-section._3{
     padding: 10%;
   }
@@ -8190,6 +8210,10 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
 }
 
 @media (max-width: 479px) {
+
+
+
+
   .hero-section._2 {
     padding-top: 100px;
   }
