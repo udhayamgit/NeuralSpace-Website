@@ -3657,8 +3657,8 @@ figcaption {
 
 .hand {
   position: relative;
-  width: 47%;
-  margin-right: 6%;
+  width: 60%;
+  margin-right: 4%;
   text-align: center;
 }
 
@@ -3690,6 +3690,10 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.side-logo{
+  width: 35%;
 }
 
 .hero-flex-2 {
