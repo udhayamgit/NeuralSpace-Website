@@ -1,4 +1,5 @@
 .post-slide{
+    height: 250px;
     margin: 0 15px;
     border-bottom: 1px solid #dadada;
     box-shadow: 0 0 5px rgba(167, 197, 167, 0.8);
@@ -59,7 +60,7 @@
 .post-slide .post-title a{
     display: inline-block;
     font-size: 16px;
-    color: #ff9412;
+    /* color: #ff9412; */
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
