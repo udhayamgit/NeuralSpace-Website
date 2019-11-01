@@ -6004,6 +6004,10 @@ figcaption {
   margin-bottom: 40px;
 }
 
+.container .row{
+  width: 100%:
+}
+
 .row.no-border {
   margin-bottom: 0px;
 }
@@ -6449,6 +6453,37 @@ figcaption {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+._50_percent_column {
+  width: 47.5%;
+  display: inline-block;
+}
+
+._50_percent_column img {
+  margin-top: 2em;
+  width: 75%;
+}
+
+._50_percent_column.right-border{
+  border-right: 1px solid #c4cbd5;
+}
+
+.jio-img{
+  width: 100px;
+}
+
+.invincix-logo{
+  height: 75px;
+  width: 100px !important;
+}
+
+._50_percent_column._67_percent_column {
+  width: 60%;
+}
+
+._50_percent_column._33_percent_column {
+  width: 30%;
 }
 
 .layout-preview {
@@ -7344,7 +7379,7 @@ figcaption {
 
 .ph-top-border{
   border-top: 1px solid #c4cbd5;
-  padding-top: 16px;
+  padding-top:32px;
   max-width: 1140px;
   margin: auto;
 }
@@ -7418,6 +7453,24 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
   width:300px;
   /* height: auto;
   width: auto; */
+}
+
+.black-box{
+  color: #fff;
+  padding-top: 128px;
+  margin-top: 1em;
+  background: #000;
+}
+
+.black-box h1, .black-box p{
+  color: white;
+  font-size: 2em;
+}
+
+.black-box p{
+  font-size: 1.25em;
+  line-height: 2em;
+  margin-bottom: 64px;
 }
 
 @media ( max-width: 1248px){
