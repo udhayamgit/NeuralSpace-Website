@@ -796,6 +796,14 @@ figcaption {
   background-repeat: no-repeat;
 }
 
+._53-percent-column.medspace_img{
+    background-image: url('../images/MedSpace-p-500.png');
+}
+
+._53-percent-column.custom_soln_img{
+    background-image: url('../images/customize2-p-500.jpeg');
+}
+
 ._47-percent-column {
   width: 47%;
 }
@@ -7360,10 +7368,13 @@ figcaption {
 .img-list{
   display: flex;
   justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 10%;
   margin: auto;
 }
 
 .img-list img{
+  height: 50px;
   width: 160px;
   margin: 20px 10px;
   text-align: center;
