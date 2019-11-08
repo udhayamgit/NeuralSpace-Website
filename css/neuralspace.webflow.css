@@ -7418,9 +7418,9 @@ figcaption {
 }
 
 .img-list img{
-  height: 50px;
+  height: 60px;
   width: 160px;
-  margin: 20px 10px;
+  margin: 20px 0px;
   text-align: center;
 }
 
@@ -8317,6 +8317,14 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
 
 @media (max-width: 479px) {
 
+  .row-reverse-mobile{
+    flex-direction: column-reverse;
+  }
+
+
+  .typeform-widget{
+    width: 90% !important;
+  }
 
   .side-logo{
     width: 75%;
