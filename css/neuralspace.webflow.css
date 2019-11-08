@@ -790,14 +790,14 @@ figcaption {
   width: 53%;
   max-width: 583px;
   min-height: 400px;
-  background-image: url('../images/AccomplishedShinyKoodoo-size_restricted.gif');
+  background-image: url('../images/nlp.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 ._53-percent-column.medspace_img{
-    background-image: url('../images/MedSpace-p-500.png');
+    background-image: url('../images/medspace.jpeg');
 }
 
 ._53-percent-column.custom_soln_img{
@@ -7406,6 +7406,7 @@ figcaption {
   padding-right: 10%;
   padding-left: 10%;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .img-list img{
@@ -7413,6 +7414,10 @@ figcaption {
   width: 160px;
   margin: 20px 10px;
   text-align: center;
+}
+
+.img-list a{
+  margin-left: 8px;
 }
 
 html.w-mod-js *[data-ix="display-none-on-load"] {
@@ -8362,7 +8367,7 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
 
   .c-item{
     padding-left: 0;
-    padding-right: 0;    
+    padding-right: 0;
   }
 
   ._50_percent_column._33_percent_column{
