@@ -786,6 +786,14 @@ figcaption {
   padding-left: 3%;
 }
 
+.ul{
+  text-decoration: underline;
+}
+
+.mb-2{
+  margin-bottom: 2em;
+}
+
 ._53-percent-column {
   width: 53%;
   max-width: 583px;
