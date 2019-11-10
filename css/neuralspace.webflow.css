@@ -6496,6 +6496,11 @@ figcaption {
   text-align: center;
 }
 
+.mlr-2{
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
 ._50_percent_column._67_percent_column {
   width: 60%;
 }
