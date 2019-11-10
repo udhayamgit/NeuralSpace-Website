@@ -6170,12 +6170,16 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 42%;
+  /* width: 42%; */
   margin-top: 49px;
   margin-right: 23%;
   margin-bottom: 50px;
   padding-bottom: 10px;
   border-bottom: 2px solid #c4cbd5;
+}
+
+.text-block-16 img{
+  margin: 1em;
 }
 
 .column-mini-white {
@@ -7574,6 +7578,9 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
 
 @media (max-width: 991px) {
 
+  .mt-2{
+    margin-top: 2em;
+  }
 
   .hero-section._3{
     padding: 10%;
@@ -8866,7 +8873,7 @@ html.w-mod-js *[data-ix="display-none-on-load-2"] {
     border-right-style: none;
   }
   .text-block-16 {
-    width: 85%;
+    /* width: 85%; */
     margin-right: 0%;
   }
   .text-block-16._1 {
