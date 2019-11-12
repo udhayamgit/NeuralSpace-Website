@@ -796,7 +796,7 @@ figcaption {
   width: 53%;
   max-width: 583px;
   min-height: 400px;
-  background-image: url('../images/nlp.jpg');
+  background-image: url('../images/undraw_personal_text_vkd8.svg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -807,7 +807,7 @@ figcaption {
 }
 
 ._53-percent-column.custom_soln_img{
-    background-image: url('../images/customize2-p-500.jpeg');
+    background-image: url('../images/undraw_Data_points_ubvs.svg');
 }
 
 ._47-percent-column {
@@ -8389,6 +8389,17 @@ text-decoration: none;
 
 @media (max-width: 479px) {
 
+  .heading-9 .bold-text-2{
+    font-size: 24px;
+  }
+
+  .side-logo{
+    margin-top: 3em;
+  }
+  .hand{
+    margin-top: 24px;
+  }
+
   .image-flex img, .image-flex .image-7, .image-flex .image-8, .image-flex .image-9{
     width: 100%;
   }
@@ -8431,7 +8442,8 @@ text-decoration: none;
   }
 
   .side-logo{
-    width: 75%;
+    width: 85%;
+    word-spacing: 10em;
     margin: auto;
   }
 
@@ -8968,6 +8980,11 @@ text-decoration: none;
   }
   .text-block-feature._3 {
     margin-bottom: 0px;
+  }
+
+  .px100-height{
+    height: 100px;
+    min-height: 100px;
   }
   .layout-box {
     width: 100%;
