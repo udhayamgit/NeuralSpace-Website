@@ -7099,7 +7099,6 @@ figcaption {
 }
 
 .link-2 {
-  padding-left: 43%;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   text-align: center;
@@ -8389,13 +8388,14 @@ text-decoration: none;
 
 @media (max-width: 479px) {
 
+  .link-2{
+    padding-left: 43%;
+  }
+
   .heading-9 .bold-text-2{
     font-size: 24px;
   }
 
-  .side-logo{
-    margin-top: 3em;
-  }
   .hand{
     margin-top: 24px;
   }
@@ -8445,6 +8445,7 @@ text-decoration: none;
     width: 85%;
     word-spacing: 10em;
     margin: auto;
+    margin-top: 3em;
   }
 
   .top-border.medium{
