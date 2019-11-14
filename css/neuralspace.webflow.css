@@ -1919,12 +1919,71 @@ figcaption {
   align-items: flex-end;
 }
 
+.w-webflow-badge{
+  display: none !important;
+}
+
+.right-shift-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background: black;
+  padding: 3em;
+  background-color: #D2D2D2;
+}
+
+
+  .left-shift-desktop .block-quote{
+    background-image: url(../images/quotation-marks-left-grey.png);
+  }
+
+
+.left-shift-desktop {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background: black;
+  padding: 3em;
+  background-color: #F2F2F2;
+}
+
+.right-shift-desktop *{
+  color: #2F4F4F;
+}
+
+.left-shift-desktop *{
+  color: #708090;
+}
+
+.cred {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.right-shift-desktop .block-quote-box{
+  width: 70%;
+  margin-left: 0;
+  margin-right: 3em;;
+  padding-right: 3em;
+  /* border-right:1px solid #c4cbd5; */
+}
+
 .footer-section {
   margin-top: 2%;
   margin-bottom: 0%;
   padding-top: 2%;
   padding-bottom: 1%;
   background-color: #000;
+}
+
+.no-margin-top{
+  margin-top: 0;
 }
 
 .footer-column-3 {
@@ -7407,6 +7466,14 @@ figcaption {
   margin: auto;
 }
 
+.ph-top-border.no-padding-top{
+  max-width: 100%;
+  padding-top: 0;
+  margin-top: 3em;
+}
+
+
+
 .image-26 {
   display: block;
   margin-right: auto;
@@ -8393,6 +8460,29 @@ text-decoration: none;
     height: 500px !important;
   }
 
+  .right-shift-desktop {
+    flex-direction: column;
+  }
+
+  .right-shift-desktop .block-quote-box{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .left-shift-desktop{
+    flex-direction: column;
+  }
+
+  .left-shift-desktop .block-quote-box{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .cred{
+    width: 100%;
+  }
 
   .center-text-no-margin{
     text-align: center;
