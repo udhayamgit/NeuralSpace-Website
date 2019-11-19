@@ -350,9 +350,9 @@ figcaption {
 .hero-section._2 {
   padding-top: 137px;
   padding-bottom: 0px;
-  background-image: url('../images/blackx_thumbnail.jpg'), url('../images/White_1White.jpg');
+  background-image:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0.1)),  url('../images/ns-background-min.png'), url('../images/blackx_thumbnail.jpg');
   background-position: 0px 0px, 50% 100%;
-  background-size: 1200px, 1px 74px;
+  background-size: cover;
   background-repeat: repeat, repeat-x;
   background-attachment: scroll, scroll;
 }
