@@ -1,11 +1,19 @@
 .post-slide{
-    height: 250px;
+    height: 350px;
     margin: 0 15px;
     border-bottom: 1px solid #dadada;
     box-shadow: 0 0 5px rgba(167, 197, 167, 0.8);
     transition: all 0.4s ease-in-out 0s;
 }
+
+@media (max-width: 479px) {
+  .post-slide{
+    height: 500px;
+  }
+}
+
 .post-slide .post-img{
+    padding-top: 2em;
     position: relative;
     overflow: hidden;
 }
@@ -30,7 +38,9 @@
 }
 .post-slide .post-img img{
     width: 100%;
-    height: auto;
+    height: 100px;
+    margin: auto;
+    text-align: center;
 }
 .post-slide .category {
     width: 20%;
