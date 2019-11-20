@@ -100,6 +100,14 @@ blockquote {
   color:#aaa;
 }
 
+.news-box{
+  margin-top: 5em;
+}
+
+.no-padding-bottom{
+  padding-bottom: 0 !important;
+}
+
 figure {
   margin-bottom: 10px;
 }
