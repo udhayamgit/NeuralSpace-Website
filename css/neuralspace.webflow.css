@@ -6547,7 +6547,12 @@ figcaption {
 }
 
 .jio-img{
-  width: 100px;
+  height: 105px;
+  padding-bottom: 32px;
+}
+
+.microsoft-img img{
+    width: 250px;
 }
 
 
@@ -6567,14 +6572,6 @@ figcaption {
 .mlr-2{
   margin-left: 0.25em;
   margin-right: 0.25em;
-}
-
-._50_percent_column._67_percent_column {
-  width: 60%;
-}
-
-._50_percent_column._33_percent_column {
-  width: 30%;
 }
 
 .layout-preview {
@@ -8567,16 +8564,6 @@ text-decoration: none;
     margin-top: 1em;
   }
 
-  ._50_percent_column._67_percent_column{
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    border: 0;
-    padding: 1em;
-    border-bottom: 1px solid #c4cbd5;
-    margin-bottom: 3em;
-    padding-bottom: 2em;
-  }
 
   .content-section{
     padding-left: 1em;
@@ -9107,6 +9094,22 @@ text-decoration: none;
     -ms-flex-pack: center;
     justify-content: center;
   }
+
+  ._50_percent_column._67_percent_column{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border: 0;
+    padding: 1em;
+    border-bottom: 1px solid #c4cbd5;
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+  }
+
+    ._50_percent_column img{
+        width: 100%;
+    }
+
 }
 
 @font-face {
